@@ -16,7 +16,7 @@ class QNetwork(nn.Module):
 
 
 if __name__ == "__main__":
-    print("custom Q-network setup")
+    print("network")
     net = QNetwork()
     fake_state = torch.rand(7)
     output = net(fake_state)
